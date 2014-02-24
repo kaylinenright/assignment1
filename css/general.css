@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: gill sans, arial, sans-serif;
+}
+
+
+header {
+    overflow: hidden;
+    background-color: #645C59;
+}
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+    background-color: #ffffff;
+    padding: .5rem 5%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image:url(../images/tutu.jpg);
+    background-color: #645C59;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30rem;
+    margin: 0 0 .5rem ;
+}
+
+
+img {
+	width: 100%;
+    display: block;
+}
+
+
+body {
+    margin:0;
+    padding: 0;
+    background-color: #EAD8D6
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Georgia, Times, serif;
+    font-weight: normal;
+    font-size: 3.25rem;
+    line-height: 3rem;
+    margin: 2rem 2rem ;
+    color: #ffffff;
+    align-content:center;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .4);
+}
+
+h1 span {
+    color: #645C59;
+    font-size: 3.9rem;
+    text-shadow: 0 0 0  rgba(0, 0, 0, .4);
+}
+
+p{
+    margin: 0 0 1.5rem;
+    line-height: 1.5rem;
+    font-family: gill sans, arial, sans-serif;
+}
+
+h3 {
+    line-height: 1.rem;
+    margin: 0 0 1.5rem;
+    color:#ffffff;
+    font-weight:bold;
+    font-size: 1.5rem
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 0 0 1.5rem;
+    line-height: 1.5rem;
+    border-top: dashed .1rem;
+    padding: .5rem 0 0;
+    font-family: georgia, times, serif;
+}
+
+.dropcap:first-letter {
+    font-size: 4.8rem;
+    font-weight: bold;
+    float:left;
+    margin: 1.7rem .5rem 1rem 0;
+    color: #645C59;
+    font-family: georgia, times, serif;
+}
+
+figcaption {
+    margin:0 0 1.5rem;
+    
+}
+    
+details {
+    margin:0 0 1.5rem;
+}
+
+details summary {
+  color: #645C59;  
+}
+
+hr {
+    border-top: dashed .1rem;
+}
+
+footer  {
+    font-family: Georgia, times, serif;
+    color: #645C59;
+}
+
+footer a {
+    color: white;     
+}
+
+p span {
+    font-weight: bold;
+    float: right;
+    margin: 2rem 0;
+    padding-right: 6.5rem
+}
+
